@@ -4,7 +4,7 @@
   "parameters": {
     "newVMName": {
       "type": "string",
-      "defaultValue": "DevTestLabVM"
+      "defaultValue": "DevTestLabVM2"
     },
     "labName": {
       "type": "string",
@@ -61,7 +61,7 @@
           }
         ],
         "labSubnetName": "[variables('labSubnetName')]",
-        "disallowPublicIpAddress": false,
+        "disallowPublicIpAddress": true,
         "storageType": "Premium",
         "allowClaim": false
       }
